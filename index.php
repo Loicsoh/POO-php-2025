@@ -1,4 +1,19 @@
 <?php
+    require_once 'Class/Employer.php';
+
+    // Instanciation de la classe Employer
+    $employer1 = new Employer("Jean", "Dupont", 25);
+    $employer2 = new Employer("Nick", "Florida", 32);
+
+    // Appel de la méthode presentation
+    $employer1->pesentation();
+    $employer2->pesentation();
+
+
+
+
+
+
     $nom1 = "Jean";
     $prenom = "Dupont";
     $age = 25;
